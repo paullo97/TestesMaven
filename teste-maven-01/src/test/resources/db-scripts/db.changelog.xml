@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databasechangelog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xsi:schemalocation="http://www.liquibase.org/xml/ns/dbchangelog   
+  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd
+  http://www.liquibase.org/xml/ns/dbchangelog-ext   
+  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<preconditions>
+		<dbms type="mysql">
+		</dbms>
+	</preconditions>
+	<includeall path="src/main/resources/db-scripts/scripts/">
+	</includeall>
+</databasechangelog>
